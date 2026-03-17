@@ -1,76 +1,109 @@
-🚫 No More CAPTCHAs
+🚫🧠 No More CAPTCHAs
+<p align="center"> <b>OpenClaw Skill for Reducing CAPTCHA Interruptions</b><br> <sub>Smarter automation. Lower detection. Cleaner workflows.</sub> </p> <p align="center"> <img src="https://img.shields.io/github/stars/stuxeno/no-more-captchas?style=for-the-badge"> <img src="https://img.shields.io/github/forks/stuxeno/no-more-captchas?style=for-the-badge"> <img src="https://img.shields.io/github/license/stuxeno/no-more-captchas?style=for-the-badge"> <img src="https://img.shields.io/badge/OpenClaw-Skill-black?style=for-the-badge"> </p>
+🧠 Overview
 
-Automate interactions without getting blocked by annoying CAPTCHAs.
+No More CAPTCHAs is an OpenClaw skill designed to help agents operate more smoothly in environments where CAPTCHA challenges may appear.
 
-No More CAPTCHAs is a lightweight tool designed to help developers handle or reduce CAPTCHA interruptions in automated workflows like testing, scraping, or bot development.
+Rather than directly solving CAPTCHAs, this skill focuses on:
 
-✨ Features
+Reducing detection signals
 
-⚡ Fast and lightweight
+Improving interaction realism
 
-🤖 Designed for automation workflows
+Maintaining stable automation flows
 
-🧠 Smart handling of common CAPTCHA triggers
+⚙️ Core Capabilities
 
-🔌 Easy integration with existing scripts/tools
+🧠 Behavior Simulation
+Emulates human-like timing and interaction patterns
 
-🛠 Works with popular automation libraries
+🔍 Challenge Awareness
+Detects potential CAPTCHA triggers during workflows
 
-📦 Installation
+⚡ Flow Optimization
+Helps prevent interruptions in automated tasks
 
-Clone the repository:
+🧩 Agent Integration
+Designed to plug directly into OpenClaw agent pipelines
 
-git clone https://github.com/stuxeno/no-more-captchas.git
-cd no-more-captchas
+🧩 Skill Role in OpenClaw
 
-Install dependencies:
+Within an OpenClaw environment, this skill acts as:
 
-pip install -r requirements.txt
-🚀 Usage
+🛡️ A defensive layer that minimizes friction between agents and protected systems
 
-Basic example:
+It enhances:
 
-from nomorecaptchas import Solver
+Agent reliability
 
-solver = Solver()
+Task continuity
 
-result = solver.solve("https://example.com")
+Execution success rate
 
-print(result)
-⚙️ How It Works
+🏗️ Architecture
+no-more-captchas/
+│
+├── skill/
+│   ├── core/
+│   ├── detection/
+│   ├── behavior/
+│   └── utils/
+│
+├── config/
+├── examples/
+└── README.md
+🎯 Design Philosophy
 
-CAPTCHAs are used to block automated systems by analyzing behavior, IP reputation, and interaction patterns.
+“Avoid the challenge — don’t fight it.”
 
-This project focuses on:
+This skill is built around:
 
-Mimicking human-like interaction patterns
+Prevention over reaction
 
-Reducing detection triggers
+Subtlety over force
 
-Handling simple challenges automatically
-
-Note: Advanced CAPTCHA systems (like Cloudflare or reCAPTCHA v3) are constantly evolving and may still require external solving services.
-
-🧪 Use Cases
-
-Automated testing (QA)
-
-Web scraping projects
-
-Bot development
-
-CI/CD pipelines
+Stability over speed
 
 ⚠️ Disclaimer
 
-This project is intended for educational and ethical use only.
+🚨 Ethical Use Only
 
-Do NOT use it to:
+This skill is intended strictly for:
 
-Bypass security systems without permission
+Development
 
-Abuse websites or services
+Testing
 
-Violate terms of service
+Research
 
-You are responsible for how you use this tool.
+Do not use it to:
+
+Bypass protections without authorization
+
+Abuse services or platforms
+
+Violate any terms of service
+
+🤝 Contributing
+
+Contributions are welcome:
+
+Improve detection logic
+
+Enhance behavior models
+
+Optimize performance
+
+⭐ Support
+
+If you like the project:
+
+⭐ Star the repo
+
+🐛 Open issues
+
+💡 Suggest improvements
+
+🧬 Final Thought
+
+“The most effective automation is the one that goes unnoticed.”
