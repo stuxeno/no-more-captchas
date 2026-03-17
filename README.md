@@ -1,19 +1,19 @@
 ---
 name: browser-automation
-description: Advanced browser automation skill combining Patchright (anti-detection, full API) and Agent Browser (fast CLI, lightweight). Designed for scraping, testing, screenshots, and resilient automation workflows.
+description: Advanced browser automation skill combining Patchright (stealth, anti-detection, full API) and Agent Browser (fast CLI, lightweight). Optimized for scraping, testing, screenshots, and resilient automation workflows.
 ---
 
 # 🌐🧠 Browser Automation  
 ### Patchright × Agent Browser
 
 <p align="center">
-  <b>Two engines. One goal: reliable, undetected automation.</b><br>
-  <sub>Optimized for OpenClaw agents • Fast • Flexible • Stealth-aware</sub>
+  <b>Adaptive automation for modern web environments</b><br>
+  <sub>Stealth-aware • Fast execution • Agent-optimized</sub>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenClaw-Skill-black?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Patchright-Anti--Bot-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Patchright-Stealth-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/AgentBrowser-CLI-green?style=for-the-badge">
 </p>
 
@@ -21,69 +21,66 @@ description: Advanced browser automation skill combining Patchright (anti-detect
 
 ## 🧠 Overview
 
-This skill provides **dual-mode browser automation**, allowing agents to dynamically choose between:
+This skill provides a **dual-engine browser automation system** designed for OpenClaw agents operating across varying levels of complexity and detection sensitivity.
 
-- 🛡️ **Patchright** → stealth, anti-detection, full API control  
-- ⚡ **Agent Browser** → speed, simplicity, CLI execution  
+It introduces an **adaptive execution model**, allowing agents to dynamically switch between:
 
----
-
-## ⚡ Decision Engine
-
-### 🛡️ Use Patchright when:
-- Bot detection must be minimized  
-- Working with protected or dynamic sites  
-- Full Playwright-level control is required  
-- Network inspection or tracing is needed  
-- Multi-browser execution is required  
-
-### ⚡ Use Agent Browser when:
-- Task is simple and fast  
-- CLI-based execution is preferred  
-- Minimal overhead is needed  
-- Running short-lived automation tasks  
-- Agent scripting speed matters  
+- 🛡️ **Patchright** → deep control, stealth, anti-detection  
+- ⚡ **Agent Browser** → speed, simplicity, low overhead  
 
 ---
 
-## 🛡️ Patchright — Stealth Automation Core
+## ⚡ Decision Matrix
 
-> Built for resilience in hostile or protected environments
+| Scenario                              | Engine           |
+|--------------------------------------|------------------|
+| Protected / anti-bot environments    | 🛡️ Patchright     |
+| Dynamic or JS-heavy applications     | 🛡️ Patchright     |
+| Network inspection required          | 🛡️ Patchright     |
+| Simple navigation / quick tasks      | ⚡ Agent Browser  |
+| CLI-driven workflows                | ⚡ Agent Browser  |
+| Low-latency execution               | ⚡ Agent Browser  |
+
+---
+
+## 🛡️ Patchright — Stealth Execution Core
+
+> High-control engine for complex and protected targets
 
 ### 🔑 Capabilities
 
 - Anti-bot detection mitigation  
-- Full Playwright-compatible API  
+- Playwright-compatible API  
 - Multi-browser support (Chromium, Firefox, WebKit)  
-- Network interception & monitoring  
-- PDF + screenshot generation  
-- Video recording & tracing  
+- Network interception & request manipulation  
+- PDF generation & full-page rendering  
+- Video recording and tracing  
 
-### 🧠 Role in Agent Flow
+### 🧠 Operational Role
 
-- Handles **high-risk targets**
-- Maintains **stealth interaction patterns**
-- Ensures **deep control over execution**
+- Handles **high-risk environments**
+- Maintains **behavioral realism**
+- Enables **deep automation control**
 
 ---
 
-## ⚡ Agent Browser — Fast Execution Layer
+## ⚡ Agent Browser — Rapid Execution Layer
 
-> Lightweight CLI engine for rapid automation
+> Lightweight CLI engine optimized for speed and simplicity
 
 ### 🔑 Capabilities
 
-- Instant browser control via CLI  
-- Element-based interaction (`@e1`, `@e2`, …)  
-- Fast navigation and execution  
-- Minimal memory footprint  
-- Ideal for agent pipelines  
+- Fast browser control via CLI  
+- Element-based interaction system (`@e1`, `@e2`, …)  
+- Instant startup and execution  
+- Minimal resource consumption  
+- Efficient for short-lived automation tasks  
 
-### 🧠 Role in Agent Flow
+### 🧠 Operational Role
 
-- Handles **low-complexity tasks**
-- Optimized for **speed + efficiency**
-- Enables **quick iteration workflows**
+- Handles **low-complexity workflows**
+- Maximizes **execution speed**
+- Supports **agent scripting pipelines**
 
 ---
 
