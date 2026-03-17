@@ -85,3 +85,125 @@ It introduces an **adaptive execution model**, allowing agents to dynamically sw
 ---
 
 ## 🏗️ Architecture
+browser-automation/
+│
+├── patchright/ # Stealth + full API engine
+├── agent-browser/ # CLI-based execution engine
+│
+├── strategies/ # Decision routing logic
+│ ├── selector.py
+│ └── scoring.py
+│
+├── workflows/ # Reusable automation patterns
+│ ├── scraping/
+│ ├── navigation/
+│ └── forms/
+│
+├── detection/ # Anti-bot heuristics
+├── utils/ # Shared utilities
+│
+└── README.md
+
+
+---
+
+## 🔄 Execution Model
+
+This skill follows a **dynamic routing strategy**:
+
+
+analyze(task):
+if requires_stealth or is_protected:
+return Patchright
+else:
+return AgentBrowser
+
+
+### 🧠 Routing Factors
+
+- Detection sensitivity  
+- Page complexity  
+- Execution time constraints  
+- Resource availability  
+- Interaction depth  
+
+---
+
+## 📊 Performance Profile
+
+| Capability            | Patchright        | Agent Browser     |
+|----------------------|------------------|------------------|
+| Anti-detection       | 🛡️ High          | ❌ None          |
+| Speed                | ⚠️ Moderate      | ⚡ High          |
+| Flexibility          | 🧠 Full API      | ⚙️ Structured    |
+| Resource Usage       | ⚠️ Higher        | ✅ Low           |
+| Startup Time         | ⚠️ Medium        | ⚡ Instant       |
+| Best Use Case        | Protected flows  | Quick tasks      |
+
+---
+
+## 🧠 Design Principles
+
+- 🛡️ **Stealth-first execution**  
+- ⚡ **Speed where possible**  
+- 🧠 **Adaptive decision-making**  
+- 🔄 **Composable workflows**  
+
+---
+
+## 🔐 Operational Guidelines
+
+- Prefer Patchright for **protected or monitored targets**  
+- Prefer Agent Browser for **stateless or repetitive tasks**  
+- Combine both engines for **hybrid workflows**  
+- Avoid unnecessary overhead by selecting the correct engine early  
+
+---
+
+## 🧩 Integration Role
+
+Within an OpenClaw agent pipeline, this skill acts as:
+
+> ⚙️ A **core execution layer** responsible for all browser-based interactions
+
+It enhances:
+
+- Reliability  
+- Task success rate  
+- Execution efficiency  
+- Environmental adaptability  
+
+---
+
+## ⚠️ Disclaimer
+
+> 🚨 Authorized and ethical use only
+
+This skill is intended for:
+
+- Development  
+- Testing  
+- Research  
+
+Do **not** use it to:
+
+- Bypass protections without permission  
+- Abuse or overload services  
+- Violate platform policies or laws  
+
+---
+
+## 🤝 Contributing
+
+Focus areas:
+
+- Smarter routing logic  
+- Detection avoidance improvements  
+- Performance tuning  
+- New automation strategies  
+
+---
+
+## 🧬 Final Thought
+
+> “Effective automation is not just fast — it’s adaptive.”
